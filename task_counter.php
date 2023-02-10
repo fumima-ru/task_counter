@@ -55,4 +55,6 @@
   </body>
 </html>
 
-<!-- http://localhost/task_counter.php/ -->
+<!-- ブラウザに表示させる -->
+<!-- http://localhost/task_counter/ -->
+<!-- task_counter.php をクリック -->
