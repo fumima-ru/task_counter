@@ -45,7 +45,25 @@
     <!--.container----------------------->
     <div class="container">
       <!--main----------------------------->
-      <main></main>
+      <main>
+        <form action=".task" method="post">  
+          <div class="input_column">
+            <p>タスクを入力</p>
+            <input type="text" name="text" value="">
+            <input type="submit" value="追加">
+            
+          </div>
+        </form>
+
+        <div class="task">
+          <ul>
+            <li><?php echo $_POST['name']; ?></li>
+          </ul>
+          
+        </div>
+
+
+      </main>
       
       <!--#footer-------------------------->
       <footer id="footer" class="wrapper">
